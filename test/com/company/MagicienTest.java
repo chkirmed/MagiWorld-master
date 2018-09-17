@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MagusTest {
+class MagicienTest {
     @Test
     public void Given_MagicienNivl10_When_attaqueBasique_Then_InfligeGrandDommmagesValeur() {
         Magicien mage = new Magicien("Test", 10, 0, 0, 10);
