@@ -22,7 +22,7 @@ public class Rodeur extends Personnage {
 
     @Override
     public String toString() {
-        return "Chut je suis le Rôdeur " + nom +
+        return "Roooow je suis le Rôdeur " + nom +
                 " niveau " + niveau +
                 " je possède " + vitalite + " de vitalité, " +
                 force + " de force, " +
