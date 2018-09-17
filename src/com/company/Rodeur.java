@@ -15,7 +15,7 @@ public class Rodeur extends Personnage {
 
     @Override
     public void attaqueSpecial(Personnage cible) {
-        int agilitePlus = agilite / 2;
+        int agilitePlus = niveau/ 2;
         System.out.println(nom +  " utilise Concentration et gagne " + agilitePlus + " en agilité.");
         agilite += agilitePlus;
     }
