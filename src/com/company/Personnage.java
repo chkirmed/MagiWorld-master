@@ -57,10 +57,10 @@ public abstract class Personnage {
     }
 
 
-    public abstract void attaqueBasique(Personnage cible);
+    public abstract void attaqueBasique(Character cible);
 
 
-    public abstract void attaqueSpecial(Personnage cible);
+    public abstract void attaqueSpecial(Character cible);
 
     @Override
     public String toString() {
