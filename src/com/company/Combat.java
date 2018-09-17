@@ -10,8 +10,8 @@ public class Combat {
     private Scanner sc = new Scanner(System.in);
 
     /**
-     * Run the game
-     * Started by characters creation then turn to turn fight.
+     * commencer le combat
+     * demarer par la personnage creé puis tour a tour.
      */
     public void run() {
         System.out.println("Création du personnage du Joueur 1");

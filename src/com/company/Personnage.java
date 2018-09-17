@@ -55,11 +55,17 @@ public abstract class Personnage {
         if (this.vitalite <= 0)
             System.out.println(this.getNom() + " est mort");
     }
-
+    /**
+     * l'attaque basique du personnage attaquante
+     * @param cible la personnage cible
+     */
 
     public abstract void attaqueBasique(Personnage cible);
 
-
+    /**
+     * l'attaque soecial du personnage attaquante
+     * @param cible la personnage cible
+     */
     public abstract void attaqueSpecial(Personnage cible);
 
     @Override
